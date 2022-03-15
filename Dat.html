@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Dat.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="w1-container">
+      <div class="row">
+        <div class="col-12">
+          <div class="btn-group1 ">
+            <div class="w1-title">
+
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sort By
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Default</a></li>
+                  <li><a class="dropdown-item" href="#">Newest</a></li>
+                  <li><a class="dropdown-item" href="#">Most Popular</a></li>
+                  <li><a class="dropdown-item" href="#">Default Price</a></li>
+                  <li><a class="dropdown-item" href="#">Highest Price</a></li>
+                  <li><a class="dropdown-item" href="#">Regular link</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Category
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#"><input type="checkbox" name="" id=""><span>All Products</span></a></li>
+                    <li><a class="dropdown-item" href="#"><input type="checkbox" name="" id=""><span>Blouses and Shirts</span></a></li>
+                    <li><a class="dropdown-item" href="#"><input type="checkbox" name="" id=""><span>Coats and Jackets</span></a></li>
+                    <li><a class="dropdown-item" href="#"><input type="checkbox" name="" id=""><span>Dresses</span></a></li>
+                    <li><a class="dropdown-item" href="#"><input type="checkbox" name="" id=""><span>Hoodies and Sweats</span></a></li>
+                    <li><a class="dropdown-item" href="#"><input type="checkbox" name="" id=""><span>Denim</span></a></li>
+                    <li><a class="dropdown-item" href="#"><input type="checkbox" name="" id=""><span>Hoodies and Sweats</span></a></li>  
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">
+                        <div class="footer">
+                          <button type="button" class="btn btn-outline-dark">Clear</button>
+                             <button class="btn " id="btn-drak1">Show Results</button>
+                        </div>
+                      </a></li>
+
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Season
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#"><input type="checkbox" name="" id=""><span>Summer</span></a></li>
+                    <li><a class="dropdown-item" href="#"><input type="checkbox" name="" id=""><span>Winter</span></a></li>
+                    <li><a class="dropdown-item" href="#"><input type="checkbox" name="" id=""><span>Spring & Fall</span></a></li>
+                   
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">
+                        <div class="footer">
+                          <button type="button" class="btn btn-outline-dark">Clear</button>
+                             <button class="btn " id="btn-drak1">Show Results</button>
+                        </div>
+                      </a></li>
+
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Size
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    
+                  <div class="size-list">
+                    <span class="size-border">3XS </span>
+                    <span class="size-border">3XS </span>
+                    <span class="size-border">3XS </span>
+                    <span class="size-border">3XS </span>
+                    <span class="size-border">3XS </span>
+                    <span class="size-border">3XS </span>
+                    <span class="size-border">3XS </span>
+                    <span class="size-border">3XS </span>
+                    <span class="size-border">3XS </span>
+                    <span class="size-border">3XS </span>
+                    <span class="size-border1">One Size </span>
+                  </div>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">
+                        <div class="footer">
+                          <button type="button" class="btn btn-outline-dark"  >Clear</button>
+                             <button class="btn " id="btn-drak1">Show Results</button>
+                        </div>
+                      </a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                   Color
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <div class="form-check">
+                    <input class="form-check-input Black" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                     Black
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      White
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Blue
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Red
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Brown
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Gray
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Cyan
+                    </label>
+                  </div>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">
+                    <div class="footer">
+                      <button type="button" class="btn btn-outline-dark">Clear</button>
+                         <button class="btn " id="btn-drak1">Show Results</button>
+                    </div>
+                  </a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Band
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <div class="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <div class="icon">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input Black" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Dsquared2
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Alexander McQueen
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Balenciaga
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Adidas
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Balmain
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Burberry
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Burberry
+                    </label>
+                  </div><li><hr class="dropdown-divider"></li>
+
+                  <li><a class="dropdown-item" href="#">
+                    <div class="footer">
+                      <button type="button" class="btn btn-outline-dark">Clear</button>
+                         <button class="btn " id="btn-drak1">Show Results</button>
+                    </div>
+                  </a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Price
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <div class="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <div class="icon">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input Black" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      $10.00 - $49.00
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      $50.00 - $99.00
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      $100.00 - $199.00
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      $200.00 and Up
+                    </label>
+                  </div>
+
+                  <li><hr class="dropdown-divider"></li>
+
+                  <li><a class="dropdown-item" href="#">
+                    <div class="footer">
+                      <button type="button" class="btn btn-outline-dark">Clear</button>
+                         <button class="btn " id="btn-drak1">Show Results</button>
+                    </div>
+                  </a></li>
+                </ul>
+              </div>
+             
+           </div>   
+
+    
+             
+          </div>
+        </div>
+
+            
+</div>
+<div class="wrapper">
+  <div class="card" style="height: 80%;">
+    <img src="https://yevgenysim.github.io/shopper/assets/img/products/product-6.jpg" class="card-img-top" alt="...">
+    <a href="" class="buy-now"><i class="fa-solid fa-eye a"></i> Quick View</a>
+    <div class="icon-card">  <i class="fa-solid fa-heart"></i></div>
+    <div class="card-body">
+      <p class="card-text">Cotton floral print Dress</p>
+      <p class="card-price">$40.00</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://yevgenysim.github.io/shopper/assets/img/products/product-10.jpg" class="card-img-top" alt="...">
+    <a href="" class="buy-now"><i class="fa-solid fa-eye a"></i> Quick View</a>
+    <div class="icon-card">  <i class="fa-solid fa-heart"></i></div>
+    <div class="card-body">
+
+      <p class="card-text">Suede cross body Bag</p>
+      <p class="card-price"> <span class="card-price1">$85.00 </span><span class="card-price2">$49.00</span></p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://yevgenysim.github.io/shopper/assets/img/products/product-32.jpg" class="card-img-top" alt="...">
+    <a href="" class="buy-now"><i class="fa-solid fa-eye a"></i> Quick View</a>
+    <div class="icon-card">  <i class="fa-solid fa-heart"></i></div>
+    <div class="card-body">
+      <p class="card-text">Cotton leaf print Shirt</p>
+      <p class="card-price">$65.00</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://yevgenysim.github.io/shopper/assets/img/products/product-7.jpg" class="card-img-top" alt="...">
+    <a href="" class="buy-now"><i class="fa-solid fa-eye a"></i> Quick View</a>
+    <div class="icon-card">  <i class="fa-solid fa-heart"></i></div>
+    <div class="card-body">
+      <p class="card-text">Leather Sneakers Select</p>
+      <p class="card-text">Options</p>
+
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://yevgenysim.github.io/shopper/assets/img/products/product-11.jpg" class="card-img-top" alt="...">
+    <a href="" class="buy-now"><i class="fa-solid fa-eye a"></i> Quick View</a>
+    <div class="icon-card">  <i class="fa-solid fa-heart"></i></div>
+    <div class="card-body">
+      <p class="card-text">Another fine dress</p>
+      <p class="card-price">$99.00</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://yevgenysim.github.io/shopper/assets/img/products/product-33.jpg  " class="card-img-top" alt="...">
+    <a href="" class="buy-now"><i class="fa-solid fa-eye a"></i> Quick View</a>
+    <div class="icon-card">  <i class="fa-solid fa-heart"></i></div>
+    <div class="card-body">
+      <p class="card-text">Baseball Cap</p>
+      <p class="card-price">$10.00</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://yevgenysim.github.io/shopper/assets/img/products/product-49.jpg" class="card-img-top" alt="...">
+    <a href="" class="buy-now"><i class="fa-solid fa-eye a"></i> Quick View</a>
+    <div class="icon-card">  <i class="fa-solid fa-heart"></i></div>
+    <div class="card-body">
+      <p class="card-text">Leather sneakers</p>
+      <p class="card-price">$19.00</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://yevgenysim.github.io/shopper/assets/img/products/product-48.jpg" class="card-img-top" alt="...">
+    <a href="" class="buy-now"><i class="fa-solid fa-eye a"></i> Quick Viewy</a>
+    <div class="icon-card">  <i class="fa-solid fa-heart"></i></div>
+    <div class="card-body">
+      <p class="card-text">Sweatshirt with Pocket</p>
+      <p class="card-price">$19.00</p>
+    </div>
+  </div>
+</div>
+  <div class="end-w1">
+    <div class="text-end-w1">
+      Showing 16 of 24 products
+    </div>
+    <div class="border-end">
+        <div class="border1"></div>
+    </div>
+    <div class="end1">
+
+      <button class="btnend">Load more</button>
+    </div>
+  </div>
+
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
