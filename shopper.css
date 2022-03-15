@@ -246,6 +246,13 @@ ul{
     color: #1f1f1f;
     opacity: 1;
 }
+.conter-header-menu-botton{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+
+
+}
 
 
 
@@ -263,6 +270,15 @@ ul{
     }
     .conter-header-iteam, .conter-header-icon{
         display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+    .carousel-control-prev{
+        display: none;
+    }
+    .card-1{
+        width: 50%;
     }
 
     
