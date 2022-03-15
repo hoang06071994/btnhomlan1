@@ -3,6 +3,7 @@
     background-color: #f5f5f5!important;
 }
 .header-1{
+    padding: 10px 0 0 0;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -16,7 +17,6 @@ ul{
     display: flex;
     list-style: none;
 }
-
 .header-iteam{
     display: flex;
     position: absolute;
@@ -64,6 +64,8 @@ ul{
     border: none;
     background-color: transparent;
     font-size: 20px;
+    position: relative;
+    left: 100%
 }
 .card-ul{
     display: block;
@@ -92,6 +94,162 @@ ul{
 .dropdown-toggle::after{
     display: none;
 }
+.conter-header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 16px;
+}
+.conter-header a{
+    text-decoration: none;
+    color: black;
+}
+.conter-header-iteam{
+    display: flex;
+    position: relative;
+}
+.conter-header-logo a{
+    font-size: 28px;
+    font-weight: 600;
+}
+.conter-header-iteam a{
+    padding:8px 16px;
+    line-height: 40px;
+    font-weight: bolder;
+}
+.conter-header-iteam a:hover{
+    color: red;
+}
+.conter-header-icon a{
+    margin: 8px 5px;
+    line-height: 50px;
+    opacity: .7;
+}
+.conter-header-icon a:hover{
+    color: red;
+}
+.home1 {
+    font-weight: 300;
+    width: 200px;
+    border: 1px solid rgb(143, 140, 140);
+   
+}
+.home1 a{
+    padding: 10px 20px;
+}
+.home1{
+    display: none;
+}
+.conter-header-iteam-home:hover .home1{
+    display: block;
+}
+.icon-2{
+    position: relative;
+}
+.icon-2 span{
+    width: 18px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 60%;
+    right: -40%;
+    text-align: center;
+    line-height: 18px;
+}
+.conter-iteam{
+    width: 98%;
+    height: 50px;
+    background-image: url(https://yevgenysim.github.io/shopper/assets/img/patterns/pattern-1.svg);
+    background-color:#1f1f1f!important ;
+    text-align: center;
+   line-height: 50px;
+   margin: 0 auto;
+
+}
+.conter-iteam div{
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.conter-check{
+    width: 80%;
+    margin: 20px auto;
+    opacity: .6;
+}
+.conter-check a{
+    text-decoration: none;
+    color: black;
+    
+}
+.conter-name{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0 0 64px;
+
+}
+.conter-img-1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    
+   
+}
+.card-1{
+    margin: 0 20px;
+}
+.card-1 p{
+    text-align: center;
+    padding: 20px 0 0;
+    font-weight: 600;
+    cursor: pointer;
+    
+
+}
+.carousel{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.carousel-control-prev{
+    opacity: 1;
+    width: 100px;
+    background-color:#fff;
+    color: #1f1f1f; 
+    font-size: 30px;
+}
+.carousel-control-prev:hover{
+    color: black;
+    opacity: 1;
+}
+.carousel-control-prev:focus{
+    color: #1f1f1f;
+    opacity: 1;
+}
+.carousel-control-next{
+  opacity: 1;
+  width: 100px;
+  background-color: #fff;
+  z-index: 9999;
+  color: #1f1f1f;
+  font-size: 30px;
+}
+.carousel-control-next:hover{
+    color: black;
+    opacity: 1;
+}
+.carousel-control-next:focus{
+    color: #1f1f1f;
+    opacity: 1;
+}
+
+
+
+
 
 
 
@@ -103,12 +261,18 @@ ul{
     .header-conter, .header-iteam, .header-icon{
         display: none;
     }
+    .conter-header-iteam, .conter-header-icon{
+        display: none;
+    }
+
     
-}
+} 
 @media screen and (min-width:1200px) {
   
     .button-menu, .card{
         display: none;
     }
-  
+    .conter-header-menu{
+        display: none;
+    }
 }
